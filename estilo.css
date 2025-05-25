@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(205, 225, 255);
+   
+}
+
+main{
+    min-width: 200px;
+    gap: 15px;
+    justify-content: end;
+    align-content: center;
+    display: grid;
+    width: 15%;
+    height: 45%;
+    background-color: #000;
+    border-radius: 25px;
+    grid-template-columns: 18% 15% 15% 15%;
+    grid-template-rows: 9% 10% 10% 10% 10% 10%;
+    grid-template-areas: 
+    "header4 header4 header4 header4"
+    "top1 top2 top3 top4 "
+    "upper1 upper2 upper3 upper4"
+    "mid1 mid2 mid3 mid4"
+    "lower1 lower2 lower3 lower4"
+    "bottom1 bottom1 bottom2 lower4"
+    ;
+}
+
+button{
+    right: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: white;
+    font-size: 20px;
+
+}
+
+button:hover{
+    background-color: #f3f3f357;
+}
+
+.header4{
+    grid-area: header4;
+    position: relative;
+    right: 20px;
+    border: none;
+    background-color: #000;
+    color: white;
+}
+
+.top1{
+    grid-area: top1;
+    background-color: gray;
+    text-align: center;
+}
+
+.top2{
+    grid-area: top2;
+    background-color: gray;
+
+}
+
+.top3{
+    grid-area: top3;
+    background-color: blue;
+}
+
+.top4{
+    grid-area: top4;
+    background-color: blue;
+
+}
+.upper1{
+    grid-area: upper1;
+    background-color: rgb(17, 17, 17);
+}
+.upper2{
+    grid-area: upper2;
+    background-color: rgb(17, 17, 17);
+
+}
+
+.upper3{
+    grid-area: upper3;
+    background-color: rgb(17, 17, 17);
+
+}
+
+.upper4{
+    grid-area: upper4;
+    background-color: blue;
+
+}
+
+.mid1{
+    grid-area: mid1;
+    background-color: rgb(17, 17, 17);
+
+}
+
+.mid2{
+    grid-area: mid2;
+    background-color: rgb(17, 17, 17);
+
+}
+.mid3{
+    grid-area: mid3;
+    background-color: rgb(17, 17, 17);
+
+}
+.mid4{
+    grid-area: mid4;
+    background-color: blue;
+
+}
+.lower1{
+    grid-area: lower1;
+    background-color: rgb(17, 17, 17);
+
+}
+
+.lower2{
+    grid-area: lower2;
+    background-color: rgb(17, 17, 17);
+
+}
+
+.lower3{
+    grid-area: lower3;
+    background-color: rgb(17, 17, 17);
+
+}
+
+.lower4{
+    grid-area: lower4;
+    background-color: blue;
+
+}
+
+.bottom1{
+    grid-area: bottom1;
+    background-color: rgb(17, 17, 17);
+
+}
+
+.bottom2{
+    grid-area: bottom2;
+    background-color: rgb(17, 17, 17);
+
+}
